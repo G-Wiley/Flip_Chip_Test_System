@@ -3,7 +3,7 @@ This Flip-Chip Tester System enables verification testing and debugging of most 
 <p>This tester PCB is heavily based on a tester designed by Michael Thompson with PCB by Vince Slyngstad. Refer to the StearnsMTvrs files in this folder: 
 https://svn.so-much-stuff.com/svn/trunk/Eagle/projects/Stearns%20Tester/
 <p>The original Flip-Chip Tester was designed by Warren Stearns.  A more detailed and complete history of the tester evolution is here: 
-https://so-much-stuff.com/pdp8/repair/fc-tester.php
+<br>https://so-much-stuff.com/pdp8/repair/fc-tester.php
 <p>This Flip Chip Tester PCB is an updated version of the StearnsMTvrs PCB. The changes to this board include:
 <ul>
 <li>Increased ground connections between the Tester Controller header and the GPIO Expander chips, and between the GPIO Expander chips and the UUT connector. This was accomplished by using smaller vias and re-routing traces that divided pieces of the ground plane. There are also many more vias that connect between layers and ground fill areas that connect across ground plane sections that are separated by signal traces. </li>
