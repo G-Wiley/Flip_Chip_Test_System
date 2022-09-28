@@ -8,8 +8,7 @@ https://so-much-stuff.com/pdp8/repair/fc-tester.php
 <ul>
 <li>Increased ground connections between the Tester Controller header and the GPIO Expander chips, and between the GPIO Expander chips and the UUT connector. This was accomplished by using smaller vias and re-routing traces that divided pieces of the ground plane. There are also many more vias that connect between layers and ground fill areas that connect across ground plane sections that are separated by signal traces. </li>
 <li>A separate chip select signal is connected to each GPIO Expander.</li>
-<li>Updated pinout of the Tester Controller header to connect the separate SPI chip selects and VCC between the Tester and the Tester Controller circuit card.</li>
+<li>Updated the pinout of the Tester Controller header to connect the separate SPI chip selects and VCC between the Tester and the Tester Controller circuit card.</li>
 </ul>
 The Tester Controller circuit card has an ESP32 CPU to control the tester and microSD adapter card for storing test vector files. A possible future update is to combine the Tester and Tester Controller onto a single circuit board. 
-<p>The original Stearns Tester software has been ported so it can be built in the Arduino development environment. Some software modifications were necessary due to use of the integrated SPI controller in the ESP32 to drive the SPI link to the GPIO Expanders and microSD adapter. 
-
+<p>The original Stearns Tester software has been ported so it can be built in the Arduino development environment. Some software modifications were necessary due to use of the integrated SPI controller in the ESP32 to drive the SPI link to the GPIO Expanders and microSD adapter. Some changes were necessary to run this as an Arduino application. 
