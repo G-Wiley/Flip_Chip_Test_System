@@ -10,5 +10,5 @@ https://so-much-stuff.com/pdp8/repair/fc-tester.php
 <li>A separate chip select signal is connected to each GPIO Expander.</li>
 <li>Updated the pinout of the Tester Controller header to connect the separate SPI chip selects and VCC between the Tester and the Tester Controller circuit card.</li>
 </ul>
-The Tester Controller circuit card has an ESP32 CPU to control the tester and microSD adapter card for storing test vector files. A possible future update is to combine the Tester and Tester Controller onto a single circuit board. 
+<p>The Tester Controller circuit card has an ESP32 CPU to control the tester and microSD adapter card for storing test vector files. A possible future update is to combine the Tester and Tester Controller onto a single circuit board. 
 <p>The original Stearns Tester software has been ported so it can be built in the Arduino development environment. Some software modifications were necessary due to use of the integrated SPI controller in the ESP32 to drive the SPI link to the GPIO Expanders and microSD adapter. Some changes were necessary to run this as an Arduino application. 
