@@ -12,4 +12,5 @@ old configuration is still possible by installing the 20-pin header and not inst
 <li>IC6 is no needed. Remove it.</li>
 <li>IC3 pin 23 DPIO signal is connected directly to VPP. Change this to a small value pullup to VPP.</li>
 <li>IC2 pin 1 DPIO signal is connected directly to GND. Change this to a small value pulldown to GND.</li>
+<li>Mounting holes need updated pads for soldermask clearance underneath screw heads.</li>
 </ol>
