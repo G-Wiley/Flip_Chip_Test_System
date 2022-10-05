@@ -8,7 +8,7 @@
 <li>Add the ESP32 to the Tester PCB as a stuff option, so the Test System can be built with only one PCB (without the Tester Controller board). Leave the 20-pin header on the Tester PCB schematic so the old configuration is still possible by installing the 20-pin header and not installing the ESP32.</li>
 <li>The UUT power switch is nice but mechanically weak. Figure out another option.</li>
 <li>IC6 is not needed. Remove it.</li>
-<li>IC3 pin 23 GPIO signal is connected directly to VPP. Instead, connect IC3 pin 23 through a small-value resistor to VPP.</li>
-<li>IC2 pin 1 GPIO signal is connected directly to GND. Instead, connect IC2 pin 1 through a small-value resistor to GND.</li>
+<li>IC3 pin 23 GPIO signal is connected directly to VPP. A software bug can cause an output driven low to be shorted to VPP. Instead, connect IC3 pin 23 through a small-value resistor to VPP.</li>
+<li>IC2 pin 1 GPIO signal is connected directly to GND. A software bug can cause an output driven high to be shorted to GND. Instead, connect IC2 pin 1 through a small-value resistor to GND.</li>
 <li>Mounting holes, 6 places, need updated pads for soldermask clearance underneath screw heads.</li>
 </ol>
