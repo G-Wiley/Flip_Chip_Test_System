@@ -1,7 +1,7 @@
 <b>known issues Flip Chip Tester PCB</b>
 <p>
 <ol>
-<li>Testpoint pads too small - the testpoint pads are too small and do not provide a strong base. After moderate use, the solder joints on some of the testpoint pins can come loose. A fix has been identified, the testpoint pads are larger, to be included in v3.</li>
+<li>Testpoint pads are too small - the testpoint pads are too small and do not provide a strong base. After moderate use, the solder joints on some of the testpoint pins can come loose. A fix has been identified, the testpoint pads are larger, to be included in v3.</li>
 <li>Some cuts and jumps are required. A fix will be included in v3.</li>
 <li>There are two current limiting resistors for the UUT power LED. Delete one of them. A fix will be included in v3.</li>
 <li>Header PC1 is 26 pins. Need only 20 pins. Use a 20-pin symbol instead.</li>
