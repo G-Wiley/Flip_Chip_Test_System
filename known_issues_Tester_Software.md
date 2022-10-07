@@ -15,6 +15,7 @@ The root cause still needs to be found.</li>
     <li>"C" - "turn on comment printout".</li>
     <li>"+" - "increase speed (less delay)".</li>
     <li>"-" - "decrease speed (more delay)(slower)".</li>
-  </ul>
+  </ul></li>
+  <li>Writing to the log file has temporarily been commented out in the print() function.</li>
 </ol>
 <p>Regarding items that have not yet been verified: these functions probably worked properly in the original Stearns tester code. They need to be re-confirmed on the ESP32 code to verify that nothing has been broken when the code was ported.
