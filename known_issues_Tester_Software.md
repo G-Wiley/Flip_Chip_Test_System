@@ -1,7 +1,7 @@
 <b>known issues Flip Chip Tester Software</b>
 <p>
 <ol>
-<li>Sometimes when running one test using the "O" command, errors are flagged when testing a good board. The scope loop test, "S", doesn't have
+<li>Sometimes when running one test using the "O" or "F" commands, errors are reported when testing a good board. The scope loop test, "S", doesn't have
 this issue. However, after testing multiple times using the "O" command when false errors are flagged, then when running the "S" command
 afterward, the "S" command output will indicate test failures. So, running the "O" command seems to pollute the "S" command result. 
 The root cause still needs to be found.</li>
@@ -9,7 +9,6 @@ The root cause still needs to be found.</li>
 <li>The "output loading test", main menu command "5", has not yet been verified on the ESP32 code.</li>
 <li>In the sub-menu under "run test", the following have not yet been verified:
   <ul>
-    <li>"F" - "run, stop on fail".</li>
     <li>"G" - "go (run tests)".</li>
     <li>"N" - "run, stop on fail, no print".</li>
     <li>"C" - "turn on comment printout".</li>
