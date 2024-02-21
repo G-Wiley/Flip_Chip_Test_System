@@ -1,5 +1,8 @@
 # Flip_Chip_Test_System
 This Flip-Chip Tester System enables verification testing and debugging of most M-series and some G-series Flip Chip modules. The system is comprised of a Tester board and a Tester Controller board. An accessory called the IC Test Jig plugs into the UUT socket of the tester which enables functional testing of digital ICs.
+
+![image](https://github.com/G-Wiley/Flip_Chip_Test_System/assets/99116236/1e6747ca-cc91-421b-a38d-0ae600b64434)
+
 <p>This tester PCB is heavily based on a tester designed by Michael Thompson with PCB by Vince Slyngstad. Refer to the StearnsMTvrs files in this folder: 
 https://svn.so-much-stuff.com/svn/trunk/Eagle/projects/Stearns%20Tester/
 <p>The original Flip-Chip Tester was designed by Warren Stearns.  A more detailed and complete history of the tester evolution is here: 
